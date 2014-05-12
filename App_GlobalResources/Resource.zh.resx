@@ -132,6 +132,9 @@
   <data name="jobLBL" xml:space="preserve">
     <value>在你的第一份工作的薪水！</value>
   </data>
+  <data name="languageLBL" xml:space="preserve">
+    <value>请选择您的语言：</value>
+  </data>
   <data name="maleRB" xml:space="preserve">
     <value>男性</value>
   </data>

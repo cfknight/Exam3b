@@ -132,6 +132,9 @@
   <data name="jobLBL" xml:space="preserve">
     <value>كما راتبا على وظيفتك الأولى!</value>
   </data>
+  <data name="languageLBL" xml:space="preserve">
+    <value>الرجاء اختيار لغتك:</value>
+  </data>
   <data name="maleRB" xml:space="preserve">
     <value>ذكر</value>
   </data>
