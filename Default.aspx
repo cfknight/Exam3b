@@ -5,25 +5,29 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <style type="text/css">
-        .auto-style1 {
-            width: 100%;
-        }
-        .auto-style2 {
-            width: 300px;
-        }
-    </style>
+    <link href="StyleSheet.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-    <h1>Welcome to 6K:183</h1>
-            <h3>Software Design and Development</h3>
+            <div class="center">
+    <h1>
+        <asp:Label ID="welcomeLBL" runat="server"></asp:Label>
+                </h1>
+            <h3>
+                <asp:Label ID="sddLBL" runat="server"></asp:Label>
+                </h3>
+                </div>
         <table class="auto-style1">
             <tr>
                 <td class="auto-style2">
                     <asp:Label ID="languageLBL" runat="server"></asp:Label>
                     <asp:DropDownList ID="DropDownList" runat="server">
+                        <asp:ListItem Value="en-US">Language</asp:ListItem>
+                        <asp:ListItem Value="en-US">English</asp:ListItem>
+                        <asp:ListItem Value="ar-SA">Arabic</asp:ListItem>
+                        <asp:ListItem Value="zh">Chinese</asp:ListItem>
+                        <asp:ListItem Value="es">Spanish</asp:ListItem>
                     </asp:DropDownList>
                 </td>
                 <td>
@@ -36,7 +40,7 @@
 &nbsp;&nbsp;
                     <asp:RadioButton ID="maleRB" runat="server" />
 &nbsp;
-                    <asp:RadioButton ID="femaleLBL" runat="server" />
+                    <asp:RadioButton ID="femaleRB" runat="server" />
                     <br />
                     <br />
                     <asp:Label ID="planLBL" runat="server"></asp:Label>
@@ -51,6 +55,24 @@
                     <br />
                     <asp:Button ID="submitBTN" runat="server" />
                     <br />
+                    <br />
+                    <asp:Label ID="helloLBL" runat="server"></asp:Label>
+                    &nbsp;<asp:Label ID="mrLBL" runat="server"></asp:Label>
+&nbsp;<asp:Label ID="msLBL" runat="server"></asp:Label>
+&nbsp;<asp:Label ID="name2LBL" runat="server"></asp:Label>
+                    <br />
+                    <br />
+                    <asp:Label ID="hopeLBL" runat="server"></asp:Label>
+&nbsp;<asp:Label ID="dateLBL" runat="server"></asp:Label>
+                    <br />
+                    <br />
+                    <asp:Label ID="wishLBL" runat="server"></asp:Label>
+&nbsp;<asp:Label ID="moneyLBL" runat="server"></asp:Label>
+&nbsp;<asp:Label ID="jobLBL" runat="server"></asp:Label>
+                    <br />
+                    <br />
+                    <asp:Label ID="pleaseLBL" runat="server"></asp:Label>
+&nbsp;<asp:HyperLink ID="githubHL" runat="server">[githubHL]</asp:HyperLink>
                 </td>
             </tr>
         </table>
